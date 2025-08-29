@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    border: 5px;
+    width:500px;
+    height: 300px;
+    background-color: rgb(121, 24, 24);
+    padding: 40px 40px 40px 40px;
+    border: 2px solid red;
+}
+.content{
+    background-color: rgb(235, 227, 227);
+    width:1200px;
+    height: 300px;
+    margin: auto;
+}
+.content1{
+    background-color: aliceblue;
+    width:350px;
+    height: 200px;
+    margin: 50px 80px ;
+    overflow: scroll;
+}
+.absolute{
+    position: absolute;
+    background-color: aqua;
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    left:50px
+
+}
+.relative {
+    position: relative;
+    background-color: rgb(255, 166, 0);
+    width: 100px;
+    height: 30px;
+    top: 80px;
+    left:180px
+}
+.float-right{
+    float:right;
+    background-color: rgb(19, 170, 158);
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    left:50px;
+
+}
+.float-left{
+    float: left;
+     background-color: rgb(137, 170, 19);
+    width: 100px;
+    height: 30px;
+    top: 50px;
+    left:50px;
+
+
+}
+
+
